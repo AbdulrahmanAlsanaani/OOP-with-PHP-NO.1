@@ -1,0 +1,40 @@
+.t-alin{
+    text-align: center;
+}
+
+.sess-alart {
+    cursor: pointer;
+    width: 60%;
+    position: fixed;
+    right: 20%;
+    text-align: center;
+    background: #00800073;
+    padding: 5px 0;
+    border: 2px solid green;
+    border-radius: 7px;
+    color: white;
+    z-index: 1 !important;
+    top: 1% !important;
+}
+
+.err-alart {
+    cursor: pointer;
+    width: 60%;
+    position:fixed !important;
+    right: 20%;
+    text-align: center;
+    background: #ff000073;
+    padding: 5px 0;
+    border: 2px solid red;
+    border-radius: 7px;
+    color: white;
+    z-index: 1 !important;
+    top: 1% !important;
+}
+
+.close{
+    position: absolute;
+    right: 11px;
+    color: #bf0000;
+}
+
